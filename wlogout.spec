@@ -6,8 +6,10 @@ Summary:	A wayland based logout menu
 URL:		https://github.com/ArtsyMacaw/wlogout
 License:	MIT
 Group:		Window Manager/Utility
-BuildRequires:	meson
+
 BuildSystem:	meson
+
+BuildRequires:	scdoc
 
 %description
 wlogout is a logout menu for wayland environments.
