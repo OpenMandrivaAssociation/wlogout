@@ -10,6 +10,7 @@ Group:		Window Manager/Utility
 BuildSystem:	meson
 
 BuildRequires:	scdoc
+BuildRequires:	pkgconfig(gtk+-wayland-3.0)
 
 %description
 wlogout is a logout menu for wayland environments.
